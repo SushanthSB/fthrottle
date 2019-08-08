@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp -r ./build/static/* ../server/static/ && cp ./build/index.html ../server/templates/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

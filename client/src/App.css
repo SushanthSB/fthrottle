@@ -5,6 +5,12 @@
     background-color: #282c34;
 }
 
+.App input {
+    width: 231px;
+    font-size: 14px;
+    padding: 5px 5px;
+}
+
 .App h4 {
     color: #fff;
 }

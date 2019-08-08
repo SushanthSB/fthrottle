@@ -13,7 +13,9 @@ class App extends React.Component {
         this.setState({val: val});
         const parent_this = this;
 
-        fetch(`http://localhost:8000/search?word=${val}`)
+        // let url = `localhost:8000/search?word=${val}`;
+        let url = `${window.location.origin}/search?word=${val}`
+        fetch(url)
         .then( response => {
             return response.json();
         }).then( json => {
