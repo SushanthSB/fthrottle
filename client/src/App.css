@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.App h4 {
+    color: #fff;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 150px;
+    pointer-events: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.result-container {
+    display: inline-block;
+    width: 243px;
+    text-align: left;
+    padding: 10px 0px;
+    font-size: 14px;
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: darkslategray;
+    height: 200px;
+    overflow-y: scroll;
+}
+.result-element {
+    display: block;
+    padding: 5px;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
